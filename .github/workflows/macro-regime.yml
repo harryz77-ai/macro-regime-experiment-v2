@@ -1,0 +1,50 @@
+name: Macro Regime Daily Update v2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 23 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: |
+          python -m py_compile runner.py tests/test_runner_core.py
+          python -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Run macro regime update
+        run: |
+          python runner.py \
+            --previous-regime auto \
+            --output reports/latest.md \
+            --json-output data/latest.json \
+            --history-csv data/history.csv \
+            --start 2020-01-01 \
+            --period 5y
+
+      - name: Commit report outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/latest.md data/latest.json data/history.csv
+          git commit -m "Update macro regime report" || echo "No changes to commit"
+          git push
