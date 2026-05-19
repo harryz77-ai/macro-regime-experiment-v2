@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-05-19T00:41:55.606860+00:00
-- Latest market date: 2026-05-18
+- Fetch time UTC: 2026-05-19T10:51:21.330263+00:00
+- Latest market date: 2026-05-19
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R1 — Bear steepening + dollar pressure / 熊市陡峭化 + 美元压力**
-- Ensemble probability: **66.1%**
+- Ensemble probability: **65.5%**
 - Previous regime: R1
 - Model type: deterministic feature scoring + Markov prior + robust Student-t filter + change-point risk score
 
@@ -21,7 +21,7 @@
 |---|---:|---:|---:|---:|---|
 | US 10Y yield | 4.590% | 21.0 bp | 33.0 bp | 51.0 bp | Long-end rate pressure |
 | US 30Y yield | 5.120% | 17.0 bp | 24.0 bp | 40.0 bp | Term premium / fiscal supply pressure |
-| DXY | 99.03 | 1.11% | 1.00% | 1.25% | Dollar pressure |
+| DXY | 99.24 | 0.96% | 0.84% | 1.57% | Dollar pressure |
 | SPY | 738.65 | -0.09% | 4.22% | 7.43% | Broad risk asset |
 | QQQ | 705.88 | -1.04% | 9.14% | 16.09% | High-duration growth |
 | IWM | 275.97 | -3.28% | -0.50% | 4.48% | Small-cap financing sensitivity |
@@ -39,8 +39,8 @@
 | Regime | Ensemble Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
 | R0 | 14.7% | High-rate absorption | 高利率吸收 |
-| R1 | 66.1% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 11.9% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R1 | 65.5% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 12.4% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 7.3% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
@@ -58,24 +58,24 @@
 
 - Used: **True**
 - Method: Student-t observation filter + Markov transition smoothing
-- Usable rows: 1270
+- Usable rows: 1271
 - Available feature count: 13
 - Top statistical regime: R1
 - Warnings: State R2 has only 5 pseudo-labeled rows; using global robust scale.
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 0.7% | High-rate absorption | 高利率吸收 |
-| R1 | 82.1% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 17.2% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 0.8% | High-rate absorption | 高利率吸收 |
+| R1 | 80.3% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 18.9% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ### Robust Change-Point / Transition Risk
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **26.3%**
-- Robust distance: 1.81
+- Risk score: **24.8%**
+- Robust distance: 1.74
 - Stress votes: 1/8
 - Warnings: none
 
