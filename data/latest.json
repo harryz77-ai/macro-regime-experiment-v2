@@ -1,5 +1,5 @@
 {
-  "fetch_time_utc": "2026-06-03T16:11:38.052990+00:00",
+  "fetch_time_utc": "2026-06-04T11:29:21.021627+00:00",
   "previous_regime": "R0",
   "features": {
     "us2y_level": null,
@@ -21,45 +21,45 @@
     "ig_oas_5d_change_bp": 0.0,
     "ig_oas_20d_change_bp": -4.0000000000000036,
     "ig_oas_60d_change_bp": -14.000000000000002,
-    "dxy_latest": 99.47100067138672,
-    "dxy_5d_return": 0.26307992069614095,
-    "dxy_20d_return": 1.0062929332580683,
-    "dxy_60d_return": 0.2934062969505158,
-    "spy_latest": 755.260009765625,
-    "spy_5d_return": 0.6396060619393795,
-    "spy_20d_return": 4.350828216782099,
-    "spy_60d_return": 11.655031215852718,
-    "qqq_latest": 743.8499755859375,
-    "qqq_5d_return": 1.9740850144532196,
-    "qqq_20d_return": 9.131320193654835,
-    "qqq_60d_return": 22.546385118149814,
-    "iwm_latest": 288.1400146484375,
-    "iwm_5d_return": -0.7679789600333997,
-    "iwm_20d_return": 1.974807877285123,
-    "iwm_60d_return": 13.813017403975936,
-    "tlt_latest": 85.16500091552734,
-    "tlt_5d_return": 0.2344423873704038,
-    "tlt_20d_return": 0.0819196654715304,
-    "tlt_60d_return": -3.4421412162362053,
-    "uup_latest": 27.864999771118164,
-    "uup_5d_return": 0.41441358961500363,
-    "uup_20d_return": 1.327271894975146,
-    "uup_60d_return": 1.4748750915819064,
-    "eem_latest": 69.8499984741211,
-    "eem_5d_return": 2.1348137118036625,
-    "eem_20d_return": 6.80427652051554,
-    "eem_60d_return": 19.503845273531418,
-    "hyg_latest": 79.67500305175781,
-    "hyg_5d_return": -0.05884598515634165,
-    "hyg_20d_return": 0.20376272101720883,
-    "hyg_60d_return": 0.9017342693612207,
-    "lqd_latest": 108.51499938964844,
-    "lqd_5d_return": -0.003346514569924075,
-    "lqd_20d_return": 0.2543561826751972,
-    "lqd_60d_return": -0.918017758198153,
-    "iwm_spy_20d_relative": -2.376020339496976,
-    "eem_spy_20d_relative": 2.453448303733441,
-    "qqq_spy_20d_relative": 4.780491976872736,
+    "dxy_latest": 99.2229995727539,
+    "dxy_5d_return": 0.20501205470573325,
+    "dxy_20d_return": 1.2273035818070488,
+    "dxy_60d_return": 0.39765024225237866,
+    "spy_latest": 754.239990234375,
+    "spy_5d_return": 0.5036868255530402,
+    "spy_20d_return": 4.20989677395851,
+    "spy_60d_return": 11.504235051445932,
+    "qqq_latest": 744.2100219726562,
+    "qqq_5d_return": 2.0234436244598752,
+    "qqq_20d_return": 9.184143126777379,
+    "qqq_60d_return": 22.605701357466067,
+    "iwm_latest": 287.6700134277344,
+    "iwm_5d_return": -0.9298418345061621,
+    "iwm_20d_return": 1.8084710904914925,
+    "iwm_60d_return": 13.627370654505743,
+    "tlt_latest": 85.30999755859375,
+    "tlt_5d_return": 0.4050953258963874,
+    "tlt_20d_return": 0.2523129282806291,
+    "tlt_60d_return": -3.2777394342080712,
+    "uup_latest": 27.860000610351562,
+    "uup_5d_return": 0.3963985958614913,
+    "uup_20d_return": 1.309093128551142,
+    "uup_60d_return": 1.4566698441919712,
+    "eem_latest": 69.91999816894531,
+    "eem_5d_return": 2.2371674118313534,
+    "eem_20d_return": 6.911309690532397,
+    "eem_60d_return": 19.62360522889586,
+    "hyg_latest": 79.68000030517578,
+    "hyg_5d_return": -0.05257762928101428,
+    "hyg_20d_return": 0.21004754783329194,
+    "hyg_60d_return": 0.9080628732789364,
+    "lqd_latest": 108.62000274658203,
+    "lqd_5d_return": 0.09341415775327988,
+    "lqd_20d_return": 0.3513662182058397,
+    "lqd_60d_return": -0.8221490664511943,
+    "iwm_spy_20d_relative": -2.401425683467018,
+    "eem_spy_20d_relative": 2.7014129165738865,
+    "qqq_spy_20d_relative": 4.974246352818868,
     "sovereign_spread_change_bp": null
   },
   "metadata": {
@@ -89,20 +89,20 @@
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
         "latest_date": "2026-06-02",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
         "latest_date": "2026-06-02",
-        "freshness": "Fresh",
+        "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-06-03",
+        "latest_date": "2026-06-04",
         "freshness": "Fresh",
         "error": null
       },
@@ -169,7 +169,7 @@
       "us30y"
     ],
     "stale": [],
-    "latest_market_date": "2026-06-03",
+    "latest_market_date": "2026-06-04",
     "overall_freshness": "Fresh"
   },
   "rule_classification": {
@@ -215,10 +215,10 @@
   },
   "student_t_filter": {
     "probability": {
-      "R0": 0.9523837339558391,
-      "R1": 0.028510081670056763,
-      "R2": 0.01846194401316046,
-      "R3": 0.000644240360943783
+      "R0": 0.9364187782081618,
+      "R1": 0.04020034790183097,
+      "R2": 0.022783839446909527,
+      "R3": 0.0005970344430976523
     },
     "diagnostics": {
       "method": "Student-t observation filter + Markov transition smoothing",
@@ -247,10 +247,10 @@
         "R3": 139
       },
       "latest_log_likelihood": {
-        "R0": -21.48701142803852,
-        "R1": -24.247851643270288,
-        "R2": -23.44371824198537,
-        "R3": -27.50374254188267
+        "R0": -21.88396781783038,
+        "R1": -24.29467021090885,
+        "R2": -23.574781847654982,
+        "R3": -27.93635969957999
       },
       "top_regime": "R0"
     }
@@ -258,9 +258,9 @@
   "change_point": {
     "method": "robust trailing-window abnormality score",
     "used": true,
-    "risk_score": 0.06448140814894354,
+    "risk_score": 0.06564522545165773,
     "risk_level": "low",
-    "distance": 0.8160213501056353,
+    "distance": 0.8289417781322302,
     "warnings": [],
     "stress_vote_count": 0,
     "stress_vote_total": 8,
@@ -278,10 +278,10 @@
   },
   "ensemble": {
     "probability": {
-      "R0": 0.4907403451297879,
-      "R1": 0.35542761474076984,
-      "R2": 0.05219769181293128,
-      "R3": 0.10163434831651097
+      "R0": 0.48592990969403593,
+      "R1": 0.35892422025457765,
+      "R2": 0.05353732168325643,
+      "R3": 0.10160854836812998
     },
     "top_regime": "R0",
     "weights": {
@@ -290,10 +290,10 @@
       "change": 0.1
     },
     "change_risk_prior": {
-      "R0": 0.36839334653319017,
-      "R1": 0.3341966732665951,
-      "R2": 0.1038581210151091,
-      "R3": 0.19355185918510567
+      "R0": 0.3681838594187016,
+      "R1": 0.3340919297093508,
+      "R2": 0.10428873341711335,
+      "R3": 0.19343547745483422
     }
   },
   "alerts": {
