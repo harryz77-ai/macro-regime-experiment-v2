@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-06-24T01:22:09.186603+00:00
-- Latest market date: 2026-06-23
+- Fetch time UTC: 2026-06-25T01:30:44.753250+00:00
+- Latest market date: 2026-06-24
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R0 — High-rate absorption / 高利率吸收**
-- Ensemble probability: **54.0%**
+- Ensemble probability: **50.4%**
 - Previous regime: R0
 - Model type: deterministic feature scoring + Markov prior + robust Student-t filter + change-point risk score
 
@@ -19,28 +19,28 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.510% | 3.0 bp | -6.0 bp | 9.0 bp | Long-end rate pressure |
-| US 30Y yield | 4.950% | -2.0 bp | -15.0 bp | 2.0 bp | Term premium / fiscal supply pressure |
-| DXY | 101.43 | 1.80% | 2.12% | 1.53% | Dollar pressure |
-| SPY | 733.58 | -2.56% | -1.36% | 14.01% | Broad risk asset |
-| QQQ | 713.65 | -3.97% | -0.43% | 24.51% | High-duration growth |
-| IWM | 295.32 | 0.23% | 3.82% | 19.63% | Small-cap financing sensitivity |
-| TLT | 86.20 | 0.56% | 2.20% | 1.27% | Long-duration bond stress |
-| EEM | 67.17 | -3.70% | 2.49% | 21.72% | EM dollar/rate transmission |
-| HYG | 79.87 | -0.21% | 0.46% | 2.75% | Credit market proxy |
-| LQD | 108.91 | -0.07% | 0.88% | 2.15% | Investment-grade bond ETF |
-| HY OAS | 2.65% | -1.0 bp | -7.0 bp | -63.0 bp | Credit spread stress |
-| IG OAS | 0.74% | 1.0 bp | 0.0 bp | -16.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | 5.19 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 3.85 pp | n/a | EM relative stress |
+| US 10Y yield | 4.500% | 3.0 bp | -6.0 bp | 6.0 bp | Long-end rate pressure |
+| US 30Y yield | 4.940% | -3.0 bp | -13.0 bp | -4.0 bp | Term premium / fiscal supply pressure |
+| DXY | 101.50 | 1.97% | 2.35% | 1.35% | Dollar pressure |
+| SPY | 733.24 | -2.03% | -2.06% | 15.93% | Broad risk asset |
+| QQQ | 710.62 | -2.53% | -2.59% | 26.45% | High-duration growth |
+| IWM | 296.69 | 1.58% | 2.37% | 22.33% | Small-cap financing sensitivity |
+| TLT | 87.38 | 1.38% | 3.08% | 3.22% | Long-duration bond stress |
+| EEM | 67.25 | -2.03% | -1.17% | 22.46% | EM dollar/rate transmission |
+| HYG | 79.85 | -0.22% | 0.10% | 2.99% | Credit market proxy |
+| LQD | 109.41 | 0.27% | 0.96% | 2.87% | Investment-grade bond ETF |
+| HY OAS | 2.71% | 0.0 bp | 0.0 bp | -45.0 bp | Credit spread stress |
+| IG OAS | 0.74% | -1.0 bp | 0.0 bp | -13.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | 4.43 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 0.89 pp | n/a | EM relative stress |
 
 ## 4. Ensemble Regime Probability
 
 | Regime | Ensemble Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 54.0% | High-rate absorption | 高利率吸收 |
-| R1 | 29.8% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 7.1% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 50.4% | High-rate absorption | 高利率吸收 |
+| R1 | 32.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 8.6% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 9.1% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
@@ -65,17 +65,17 @@
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 98.1% | High-rate absorption | 高利率吸收 |
-| R1 | 0.8% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 1.0% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 85.9% | High-rate absorption | 高利率吸收 |
+| R1 | 8.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 6.1% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ### Robust Change-Point / Transition Risk
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **12.0%**
-- Robust distance: 1.29
+- Risk score: **11.2%**
+- Robust distance: 1.23
 - Stress votes: 0/8
 - Warnings: none
 
