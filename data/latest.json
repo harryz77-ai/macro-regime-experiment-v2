@@ -1,65 +1,65 @@
 {
-  "fetch_time_utc": "2026-06-30T01:29:22.243335+00:00",
+  "fetch_time_utc": "2026-07-01T01:37:10.343169+00:00",
   "previous_regime": "R1",
   "features": {
-    "us2y_level": 4.07,
+    "us2y_level": 4.1,
     "us10y_level": 4.38,
-    "us30y_level": 4.87,
-    "us10y_5d_change_bp": -8.000000000000007,
+    "us30y_level": 4.86,
+    "us10y_5d_change_bp": -12.99999999999999,
     "us10y_20d_change_bp": -7.000000000000028,
-    "us10y_60d_change_bp": 4.999999999999982,
-    "us30y_5d_change_bp": -3.000000000000025,
-    "us30y_20d_change_bp": -11.000000000000032,
-    "us30y_60d_change_bp": -4.0000000000000036,
-    "curve_10y2y": 0.3099999999999996,
-    "curve_30y10y": 0.4900000000000002,
-    "hy_oas_level": 2.83,
-    "hy_oas_5d_change_bp": 16.999999999999993,
-    "hy_oas_20d_change_bp": 8.999999999999986,
-    "hy_oas_60d_change_bp": -21.999999999999975,
-    "ig_oas_level": 0.77,
-    "ig_oas_5d_change_bp": 3.0000000000000027,
+    "us10y_60d_change_bp": 7.000000000000028,
+    "us30y_5d_change_bp": -8.999999999999986,
+    "us30y_20d_change_bp": -12.99999999999999,
+    "us30y_60d_change_bp": -1.9999999999999574,
+    "curve_10y2y": 0.28000000000000025,
+    "curve_30y10y": 0.4800000000000004,
+    "hy_oas_level": 2.8,
+    "hy_oas_5d_change_bp": 14.999999999999991,
+    "hy_oas_20d_change_bp": 7.999999999999963,
+    "hy_oas_60d_change_bp": -32.00000000000003,
+    "ig_oas_level": 0.76,
+    "ig_oas_5d_change_bp": 2.0000000000000018,
     "ig_oas_20d_change_bp": 3.0000000000000027,
-    "ig_oas_60d_change_bp": -7.9999999999999964,
-    "dxy_latest": 101.23600006103516,
-    "dxy_5d_return": 0.21382243629639586,
-    "dxy_20d_return": 2.351629069665906,
-    "dxy_60d_return": 1.5915690023791562,
-    "spy_latest": 741.0,
-    "spy_5d_return": -0.4554083990552349,
-    "spy_20d_return": -1.7939674753606139,
-    "spy_60d_return": 13.379678079647238,
-    "qqq_latest": 724.0800170898438,
-    "qqq_5d_return": -1.879530440782251,
-    "qqq_20d_return": -1.8195936967648985,
-    "qqq_60d_return": 24.056706668091632,
-    "iwm_latest": 298.9700012207031,
-    "iwm_5d_return": 0.26494351208226075,
-    "iwm_20d_return": 3.1852708044210365,
-    "iwm_60d_return": 20.08374170663778,
-    "tlt_latest": 87.44999694824219,
-    "tlt_5d_return": 1.5797429064972501,
-    "tlt_20d_return": 2.3716909320116386,
-    "tlt_60d_return": 2.1541296449074876,
-    "uup_latest": 28.3700008392334,
-    "uup_5d_return": 0.03526173718835235,
-    "uup_20d_return": 2.566887186327005,
-    "uup_60d_return": 2.3079744232316513,
-    "eem_latest": 67.43000030517578,
-    "eem_5d_return": -5.308241578282935,
-    "eem_20d_return": -1.1946278638061636,
-    "eem_60d_return": 18.435235017931404,
-    "hyg_latest": 80.01000213623047,
-    "hyg_5d_return": 0.08756528982536427,
-    "hyg_20d_return": 0.136420268001336,
-    "hyg_60d_return": 1.8532959229529355,
-    "lqd_latest": 109.69999694824219,
-    "lqd_5d_return": 0.8457420291131834,
-    "lqd_20d_return": 0.6911532025920097,
-    "lqd_60d_return": 1.7370428285372608,
-    "iwm_spy_20d_relative": 4.979238279781651,
-    "eem_spy_20d_relative": 0.5993396115544503,
-    "qqq_spy_20d_relative": -0.02562622140428461,
+    "ig_oas_60d_change_bp": -9.999999999999998,
+    "dxy_latest": 101.2969970703125,
+    "dxy_5d_return": -0.1114353492909892,
+    "dxy_20d_return": 2.1139114784090474,
+    "dxy_60d_return": 1.2666183209809834,
+    "spy_latest": 746.77001953125,
+    "spy_5d_return": 1.7980318621180214,
+    "spy_20d_return": -1.2980332985263576,
+    "spy_60d_return": 14.15974683667136,
+    "qqq_latest": 736.4000244140625,
+    "qqq_5d_return": 3.1878370660294975,
+    "qqq_20d_return": -0.7446386853765863,
+    "qqq_60d_return": 26.022993399375437,
+    "iwm_latest": 300.45001220703125,
+    "iwm_5d_return": 1.7371003506648552,
+    "iwm_20d_return": 4.216376452973858,
+    "iwm_60d_return": 19.847396172852804,
+    "tlt_latest": 86.41999816894531,
+    "tlt_5d_return": 0.25522184279800353,
+    "tlt_20d_return": 1.1114975250662296,
+    "tlt_60d_return": 0.33447061610090145,
+    "uup_latest": 28.40999984741211,
+    "uup_5d_return": -0.1406007537948839,
+    "uup_20d_return": 2.341497165601636,
+    "uup_60d_return": 1.9741537150440358,
+    "eem_latest": 68.41000366210938,
+    "eem_5d_return": 1.846070458488347,
+    "eem_20d_return": -1.8756014015713918,
+    "eem_60d_return": 21.51543364218236,
+    "hyg_latest": 79.97000122070312,
+    "hyg_5d_return": 0.1252015408568008,
+    "hyg_20d_return": 0.1628317745185015,
+    "hyg_60d_return": 1.5592635447031933,
+    "lqd_latest": 109.06999969482422,
+    "lqd_5d_return": 0.14690664524374952,
+    "lqd_20d_return": 0.12852234394218343,
+    "lqd_60d_return": 0.726368692017787,
+    "iwm_spy_20d_relative": 5.5144097515002155,
+    "eem_spy_20d_relative": -0.5775681030450341,
+    "qqq_spy_20d_relative": 0.5533946131497713,
     "sovereign_spread_change_bp": null
   },
   "metadata": {
@@ -67,105 +67,105 @@
       "us2y": {
         "group": "fred",
         "source": "FRED:DGS2",
-        "latest_date": "2026-06-26",
+        "latest_date": "2026-06-29",
         "freshness": "Acceptable",
         "error": null
       },
       "us10y": {
         "group": "fred",
         "source": "FRED:DGS10",
-        "latest_date": "2026-06-26",
+        "latest_date": "2026-06-29",
         "freshness": "Acceptable",
         "error": null
       },
       "us30y": {
         "group": "fred",
         "source": "FRED:DGS30",
-        "latest_date": "2026-06-26",
+        "latest_date": "2026-06-29",
         "freshness": "Acceptable",
         "error": null
       },
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-06-26",
+        "latest_date": "2026-06-29",
         "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-06-26",
+        "latest_date": "2026-06-29",
         "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "spy": {
         "group": "yahoo",
         "source": "Yahoo:SPY",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "qqq": {
         "group": "yahoo",
         "source": "Yahoo:QQQ",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "iwm": {
         "group": "yahoo",
         "source": "Yahoo:IWM",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "tlt": {
         "group": "yahoo",
         "source": "Yahoo:TLT",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "eem": {
         "group": "yahoo",
         "source": "Yahoo:EEM",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "hyg": {
         "group": "yahoo",
         "source": "Yahoo:HYG",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       },
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
-        "latest_date": "2026-06-29",
+        "latest_date": "2026-06-30",
         "freshness": "Fresh",
         "error": null
       }
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-06-29",
+    "latest_market_date": "2026-06-30",
     "overall_freshness": "Fresh"
   },
   "rule_classification": {
@@ -208,10 +208,10 @@
   },
   "student_t_filter": {
     "probability": {
-      "R0": 0.035731181854674464,
-      "R1": 0.16344155832757395,
-      "R2": 0.8008156604897815,
-      "R3": 1.159932797007597e-05
+      "R0": 0.06507135581472148,
+      "R1": 0.1369555312082797,
+      "R2": 0.7979557758051646,
+      "R3": 1.7337171834307627e-05
     },
     "diagnostics": {
       "method": "Student-t observation filter + Markov transition smoothing",
@@ -244,10 +244,10 @@
         "R3": 153
       },
       "latest_log_likelihood": {
-        "R0": -37.14265427221682,
-        "R1": -36.15348630127125,
-        "R2": -34.8539345308222,
-        "R3": -45.87051662970335
+        "R0": -36.00155581170462,
+        "R1": -35.719385852354165,
+        "R2": -34.3763981407535,
+        "R3": -45.001482482577266
       },
       "top_regime": "R2"
     }
@@ -255,9 +255,9 @@
   "change_point": {
     "method": "robust trailing-window abnormality score",
     "used": true,
-    "risk_score": 0.09690139826507148,
+    "risk_score": 0.10435394650504426,
     "risk_level": "low",
-    "distance": 1.1178024788871501,
+    "distance": 1.174781661538253,
     "warnings": [],
     "stress_vote_count": 0,
     "stress_vote_total": 8,
@@ -279,10 +279,10 @@
   },
   "ensemble": {
     "probability": {
-      "R0": 0.19403894979213884,
-      "R1": 0.3829160075787298,
-      "R2": 0.33212031334806663,
-      "R3": 0.09092472928106479
+      "R0": 0.20270685611183342,
+      "R1": 0.3749031265087817,
+      "R2": 0.3315380922275605,
+      "R3": 0.09085192515182433
     },
     "top_regime": "R1",
     "weights": {
@@ -291,10 +291,10 @@
       "change": 0.1
     },
     "change_risk_prior": {
-      "R0": 0.36255774831228715,
-      "R1": 0.3312788741561436,
-      "R2": 0.11585351735807645,
-      "R3": 0.19030986017349286
+      "R0": 0.361216289629092,
+      "R1": 0.33060814481454603,
+      "R2": 0.11861096020686637,
+      "R3": 0.18956460534949557
     }
   },
   "alerts": {
