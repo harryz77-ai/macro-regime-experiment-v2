@@ -1,65 +1,65 @@
 {
-  "fetch_time_utc": "2026-07-15T00:11:17.101804+00:00",
-  "previous_regime": "R0",
+  "fetch_time_utc": "2026-07-16T00:54:01.306946+00:00",
+  "previous_regime": "R1",
   "features": {
-    "us2y_level": 4.26,
-    "us10y_level": 4.62,
-    "us30y_level": 5.1,
-    "us10y_5d_change_bp": 13.999999999999968,
-    "us10y_20d_change_bp": 16.999999999999993,
-    "us10y_60d_change_bp": 33.00000000000001,
-    "us30y_5d_change_bp": 10.999999999999943,
-    "us30y_20d_change_bp": 14.999999999999947,
-    "us30y_60d_change_bp": 20.999999999999996,
-    "curve_10y2y": 0.3600000000000003,
-    "curve_30y10y": 0.47999999999999954,
-    "hy_oas_level": 2.69,
-    "hy_oas_5d_change_bp": -3.000000000000025,
-    "hy_oas_20d_change_bp": 2.9999999999999805,
-    "hy_oas_60d_change_bp": -16.000000000000014,
-    "ig_oas_level": 0.78,
+    "us2y_level": 4.18,
+    "us10y_level": 4.58,
+    "us30y_level": 5.08,
+    "us10y_5d_change_bp": 3.000000000000025,
+    "us10y_20d_change_bp": 9.999999999999964,
+    "us10y_60d_change_bp": 25.99999999999998,
+    "us30y_5d_change_bp": 3.000000000000025,
+    "us30y_20d_change_bp": 11.000000000000032,
+    "us30y_60d_change_bp": 15.000000000000036,
+    "curve_10y2y": 0.40000000000000036,
+    "curve_30y10y": 0.5,
+    "hy_oas_level": 2.72,
+    "hy_oas_5d_change_bp": 5.000000000000027,
+    "hy_oas_20d_change_bp": 1.000000000000023,
+    "hy_oas_60d_change_bp": -11.999999999999966,
+    "ig_oas_level": 0.79,
     "ig_oas_5d_change_bp": 3.0000000000000027,
-    "ig_oas_20d_change_bp": 5.000000000000004,
-    "ig_oas_60d_change_bp": -2.0000000000000018,
-    "dxy_latest": 100.88500213623047,
-    "dxy_5d_return": -0.25212305216215647,
-    "dxy_20d_return": 1.1378467531132586,
-    "dxy_60d_return": 2.713297579317886,
-    "spy_latest": 751.8300170898438,
-    "spy_5d_return": 0.5510150989173512,
-    "spy_20d_return": 1.620074372995517,
-    "spy_60d_return": 7.426234625045902,
-    "qqq_latest": 719.7100219726562,
-    "qqq_5d_return": 1.449054790889437,
-    "qqq_20d_return": -0.11631904929422232,
-    "qqq_60d_return": 12.495662778487304,
-    "iwm_latest": 294.510009765625,
-    "iwm_5d_return": -0.5672010067637512,
-    "iwm_20d_return": 0.7715881148782078,
-    "iwm_60d_return": 9.357424403404258,
-    "tlt_latest": 84.08000183105469,
-    "tlt_5d_return": -0.5558855159536913,
-    "tlt_20d_return": -1.6083312099499647,
-    "tlt_60d_return": -1.4426152392561287,
-    "uup_latest": 28.389999389648438,
-    "uup_5d_return": -0.035212074000556814,
-    "uup_20d_return": 1.574234757418691,
-    "uup_60d_return": 3.7267026640091627,
-    "eem_latest": 65.66999816894531,
-    "eem_5d_return": -0.07608498300218924,
-    "eem_20d_return": -2.752893095041431,
-    "eem_60d_return": 5.702697141716118,
-    "hyg_latest": 79.68000030517578,
-    "hyg_5d_return": -0.10030319572715829,
-    "hyg_20d_return": 0.1368036144228313,
-    "hyg_60d_return": 0.6605312528764173,
-    "lqd_latest": 107.20999908447266,
-    "lqd_5d_return": -0.6210587560281811,
-    "lqd_20d_return": -1.3055658975129947,
-    "lqd_60d_return": -0.9248275501764325,
-    "iwm_spy_20d_relative": -0.8484862581173092,
-    "eem_spy_20d_relative": -4.372967468036948,
-    "qqq_spy_20d_relative": -1.7363934222897393,
+    "ig_oas_20d_change_bp": 4.0000000000000036,
+    "ig_oas_60d_change_bp": 0.0,
+    "dxy_latest": 100.47699737548828,
+    "dxy_5d_return": -0.5670516169861362,
+    "dxy_20d_return": 0.8501456844527411,
+    "dxy_60d_return": 2.423036634393272,
+    "spy_latest": 754.8099975585938,
+    "spy_5d_return": 1.262405800419475,
+    "spy_20d_return": 0.2549662936359498,
+    "spy_60d_return": 6.564132453864646,
+    "qqq_latest": 717.739990234375,
+    "qqq_5d_return": 0.8855262244672035,
+    "qqq_20d_return": -3.423556305828157,
+    "qqq_60d_return": 10.738812975276213,
+    "iwm_latest": 295.7699890136719,
+    "iwm_5d_return": 0.780284156201172,
+    "iwm_20d_return": 0.3835101510508254,
+    "iwm_60d_return": 7.503571697954148,
+    "tlt_latest": 84.23999786376953,
+    "tlt_5d_return": -0.14225076542651038,
+    "tlt_20d_return": -1.3636052191193793,
+    "tlt_60d_return": -2.1509934042452827,
+    "uup_latest": 28.25,
+    "uup_5d_return": -0.38787238358313214,
+    "uup_20d_return": 1.0010750572733151,
+    "uup_60d_return": 3.2529216732243293,
+    "eem_latest": 65.56999969482422,
+    "eem_5d_return": -0.9965327323817497,
+    "eem_20d_return": -5.992831978746638,
+    "eem_60d_return": 3.5682233067429125,
+    "hyg_latest": 79.80999755859375,
+    "hyg_5d_return": 0.1882926055597478,
+    "hyg_20d_return": 0.17487032677221404,
+    "hyg_60d_return": 0.4497012874178141,
+    "lqd_latest": 107.58000183105469,
+    "lqd_5d_return": -0.08358534356934788,
+    "lqd_20d_return": -0.9467806024443859,
+    "lqd_60d_return": -1.134018558503036,
+    "iwm_spy_20d_relative": 0.12854385741487562,
+    "eem_spy_20d_relative": -6.247798272382588,
+    "qqq_spy_20d_relative": -3.678522599464107,
     "sovereign_spread_change_bp": null
   },
   "metadata": {
@@ -67,121 +67,121 @@
       "us2y": {
         "group": "fred",
         "source": "FRED:DGS2",
-        "latest_date": "2026-07-13",
+        "latest_date": "2026-07-14",
         "freshness": "Acceptable",
         "error": null
       },
       "us10y": {
         "group": "fred",
         "source": "FRED:DGS10",
-        "latest_date": "2026-07-13",
+        "latest_date": "2026-07-14",
         "freshness": "Acceptable",
         "error": null
       },
       "us30y": {
         "group": "fred",
         "source": "FRED:DGS30",
-        "latest_date": "2026-07-13",
+        "latest_date": "2026-07-14",
         "freshness": "Acceptable",
         "error": null
       },
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-07-13",
+        "latest_date": "2026-07-14",
         "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-07-13",
+        "latest_date": "2026-07-14",
         "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "spy": {
         "group": "yahoo",
         "source": "Yahoo:SPY",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "qqq": {
         "group": "yahoo",
         "source": "Yahoo:QQQ",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "iwm": {
         "group": "yahoo",
         "source": "Yahoo:IWM",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "tlt": {
         "group": "yahoo",
         "source": "Yahoo:TLT",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "uup": {
         "group": "yahoo",
         "source": "Yahoo:UUP",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "eem": {
         "group": "yahoo",
         "source": "Yahoo:EEM",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "hyg": {
         "group": "yahoo",
         "source": "Yahoo:HYG",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       },
       "lqd": {
         "group": "yahoo",
         "source": "Yahoo:LQD",
-        "latest_date": "2026-07-14",
+        "latest_date": "2026-07-15",
         "freshness": "Fresh",
         "error": null
       }
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-07-14",
+    "latest_market_date": "2026-07-15",
     "overall_freshness": "Fresh"
   },
   "rule_classification": {
     "scores": {
-      "R0": 2,
-      "R1": 3,
+      "R0": 3,
+      "R1": 2,
       "R2": 0,
       "R3": 0
     },
     "evidence": {
       "R0": [
         "10Y yield is high but not accelerating",
-        "equity resilience with stable credit"
+        "equity resilience with stable credit",
+        "DXY is stable"
       ],
       "R1": [
-        "DXY strengthened over 20D",
         "EEM underperformed SPY over 20D",
         "credit spread pressure is not yet disorderly"
       ],
@@ -189,31 +189,31 @@
       "R3": []
     },
     "signal_probability": {
-      "R0": 0.2755326486309692,
-      "R1": 0.6132091866641559,
+      "R0": 0.6132091866641559,
+      "R1": 0.2755326486309692,
       "R2": 0.055629082352437534,
       "R3": 0.055629082352437534
     },
     "markov_prior": {
-      "R0": 0.55,
-      "R1": 0.25,
-      "R2": 0.06,
+      "R0": 0.25,
+      "R1": 0.43,
+      "R2": 0.18,
       "R3": 0.14
     },
     "posterior_probability": {
-      "R0": 0.37159622161013,
-      "R1": 0.4860859713317014,
-      "R2": 0.0571589035290844,
+      "R0": 0.4860859713317014,
+      "R1": 0.32959622161013,
+      "R2": 0.09915890352908441,
       "R3": 0.0851589035290844
     },
-    "top_regime": "R1"
+    "top_regime": "R0"
   },
   "student_t_filter": {
     "probability": {
-      "R0": 0.08942636267585578,
-      "R1": 0.009977271533401768,
-      "R2": 0.9005926080503396,
-      "R3": 3.7577404028724434e-06
+      "R0": 0.18176816976691154,
+      "R1": 0.028476044773093248,
+      "R2": 0.7897547356100107,
+      "R3": 1.0498499844733037e-06
     },
     "diagnostics": {
       "method": "Student-t observation filter + Markov transition smoothing",
@@ -246,10 +246,10 @@
         "R3": 153
       },
       "latest_log_likelihood": {
-        "R0": -34.4900552835445,
-        "R1": -36.61180833074516,
-        "R2": -32.39675899204737,
-        "R3": -44.755104630109926
+        "R0": -34.695865427286506,
+        "R1": -36.36892178455737,
+        "R2": -33.32306171268992,
+        "R3": -46.849365109516256
       },
       "top_regime": "R2"
     }
@@ -257,9 +257,9 @@
   "change_point": {
     "method": "robust trailing-window abnormality score",
     "used": true,
-    "risk_score": 0.1101905428310656,
+    "risk_score": 0.10517600438382457,
     "risk_level": "low",
-    "distance": 0.8376547221235849,
+    "distance": 0.7810848996824227,
     "warnings": [],
     "stress_vote_count": 1,
     "stress_vote_total": 8,
@@ -281,22 +281,22 @@
   },
   "ensemble": {
     "probability": {
-      "R0": 0.2858022119978756,
-      "R1": 0.3276530493735618,
-      "R2": 0.31655017461730195,
-      "R3": 0.06999456401126086
+      "R0": 0.3822888656501853,
+      "R1": 0.23935396235855153,
+      "R2": 0.3083132749626553,
+      "R3": 0.07004389702860772
     },
-    "top_regime": "R1",
+    "top_regime": "R0",
     "weights": {
       "rule": 0.6,
       "stat": 0.3,
       "change": 0.1
     },
     "change_risk_prior": {
-      "R0": 0.36016570229040823,
-      "R1": 0.33008285114520414,
-      "R2": 0.12077050084749427,
-      "R3": 0.18898094571689347
+      "R0": 0.3610683192109116,
+      "R1": 0.3305341596054558,
+      "R2": 0.11891512162201509,
+      "R3": 0.18948239956161755
     }
   },
   "alerts": {
