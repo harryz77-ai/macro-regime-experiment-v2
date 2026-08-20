@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-08-19T23:43:36.568206+00:00
-- Latest market date: 2026-08-19
+- Fetch time UTC: 2026-08-20T23:46:28.393076+00:00
+- Latest market date: 2026-08-20
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R0 — High-rate absorption / 高利率吸收**
-- Ensemble probability: **63.7%**
+- Ensemble probability: **63.8%**
 - Previous regime: R0
 - Model type: deterministic feature scoring + Markov prior + robust Student-t filter + change-point risk score
 
@@ -19,28 +19,28 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.710% | 1.0 bp | 8.0 bp | 14.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.280% | 4.0 bp | 15.0 bp | 18.0 bp | Term premium / fiscal supply pressure |
-| DXY | 98.77 | -1.24% | -2.35% | -0.56% | Dollar pressure |
-| SPY | 769.06 | -0.44% | 2.90% | 3.41% | Broad risk asset |
-| QQQ | 716.08 | -1.05% | 1.52% | -0.09% | High-duration growth |
-| IWM | 301.72 | -0.33% | 2.70% | 6.07% | Small-cap financing sensitivity |
-| TLT | 83.02 | 1.11% | -0.10% | -0.81% | Long-duration bond stress |
-| EEM | 66.11 | -0.53% | 1.18% | 0.64% | EM dollar/rate transmission |
-| HYG | 79.71 | 0.13% | 0.52% | 1.28% | Credit market proxy |
-| LQD | 106.57 | 0.42% | -0.92% | 0.21% | Investment-grade bond ETF |
-| HY OAS | 2.75% | 3.0 bp | 6.0 bp | 4.0 bp | Credit spread stress |
-| IG OAS | 0.82% | 3.0 bp | 4.0 bp | 8.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -0.20 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | -1.72 pp | n/a | EM relative stress |
+| US 10Y yield | 4.650% | -3.0 bp | -2.0 bp | 9.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.190% | -5.0 bp | 4.0 bp | 12.0 bp | Term premium / fiscal supply pressure |
+| DXY | 98.84 | -1.12% | -2.13% | -0.27% | Dollar pressure |
+| SPY | 762.60 | -1.96% | 3.31% | 1.86% | Broad risk asset |
+| QQQ | 710.93 | -2.89% | 2.74% | -2.54% | High-duration growth |
+| IWM | 297.67 | -1.92% | 1.91% | 2.71% | Small-cap financing sensitivity |
+| TLT | 82.34 | -0.30% | -0.60% | -2.11% | Long-duration bond stress |
+| EEM | 66.62 | -0.09% | 3.13% | 1.65% | EM dollar/rate transmission |
+| HYG | 79.56 | -0.29% | 0.90% | 1.04% | Credit market proxy |
+| LQD | 106.06 | -0.46% | -1.02% | -1.03% | Investment-grade bond ETF |
+| HY OAS | 2.73% | 2.0 bp | 5.0 bp | 1.0 bp | Credit spread stress |
+| IG OAS | 0.81% | 2.0 bp | 3.0 bp | 8.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -1.40 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | -0.18 pp | n/a | EM relative stress |
 
 ## 4. Ensemble Regime Probability
 
 | Regime | Ensemble Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 63.7% | High-rate absorption | 高利率吸收 |
-| R1 | 17.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 6.1% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 63.8% | High-rate absorption | 高利率吸收 |
+| R1 | 16.9% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 6.0% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 13.2% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
@@ -65,17 +65,17 @@
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 99.6% | High-rate absorption | 高利率吸收 |
-| R1 | 0.1% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 0.3% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 99.9% | High-rate absorption | 高利率吸收 |
+| R1 | 0.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 0.1% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ### Robust Change-Point / Transition Risk
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **5.7%**
-- Robust distance: 0.73
+- Risk score: **6.0%**
+- Robust distance: 0.77
 - Stress votes: 0/8
 - Warnings: none
 
