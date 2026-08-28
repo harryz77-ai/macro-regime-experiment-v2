@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-08-27T04:35:25.909399+00:00
-- Latest market date: 2026-08-27
+- Fetch time UTC: 2026-08-28T06:58:40.466912+00:00
+- Latest market date: 2026-08-28
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -19,20 +19,20 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.640% | -7.0 bp | 3.0 bp | 19.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.170% | -11.0 bp | 8.0 bp | 18.0 bp | Term premium / fiscal supply pressure |
-| DXY | 99.15 | 0.25% | -0.86% | -0.07% | Dollar pressure |
-| SPY | 766.08 | -0.39% | 5.02% | 1.25% | Broad risk asset |
-| QQQ | 711.37 | -0.66% | 7.50% | -4.12% | High-duration growth |
-| IWM | 298.93 | -0.92% | 3.59% | 3.69% | Small-cap financing sensitivity |
-| TLT | 83.30 | 0.34% | 0.95% | -1.78% | Long-duration bond stress |
-| EEM | 67.17 | 1.60% | 9.99% | -3.65% | EM dollar/rate transmission |
-| HYG | 79.90 | 0.24% | 1.32% | 1.03% | Credit market proxy |
-| LQD | 106.78 | 0.20% | 0.96% | -1.20% | Investment-grade bond ETF |
-| HY OAS | 2.70% | -5.0 bp | -14.0 bp | -1.0 bp | Credit spread stress |
-| IG OAS | 0.81% | -1.0 bp | 0.0 bp | 7.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -1.43 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 4.97 pp | n/a | EM relative stress |
+| US 10Y yield | 4.660% | 1.0 bp | -1.0 bp | 19.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.180% | -1.0 bp | -2.0 bp | 19.0 bp | Term premium / fiscal supply pressure |
+| DXY | 99.16 | 0.37% | -0.64% | -0.37% | Dollar pressure |
+| SPY | 771.10 | 1.11% | 3.97% | 1.78% | Broad risk asset |
+| QQQ | 721.11 | 1.43% | 5.49% | -3.25% | High-duration growth |
+| IWM | 299.81 | 0.72% | 2.47% | 3.04% | Small-cap financing sensitivity |
+| TLT | 83.13 | 0.96% | 0.80% | -2.19% | Long-duration bond stress |
+| EEM | 67.61 | 1.49% | 6.32% | -4.01% | EM dollar/rate transmission |
+| HYG | 79.87 | 0.39% | 0.99% | 0.91% | Credit market proxy |
+| LQD | 106.73 | 0.63% | 0.73% | -1.24% | Investment-grade bond ETF |
+| HY OAS | 2.67% | -6.0 bp | -20.0 bp | -8.0 bp | Credit spread stress |
+| IG OAS | 0.80% | -1.0 bp | -1.0 bp | 6.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -1.50 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 2.36 pp | n/a | EM relative stress |
 
 ## 4. Ensemble Regime Probability
 
@@ -40,8 +40,8 @@
 |---|---:|---|---|
 | R0 | 71.3% | High-rate absorption | 高利率吸收 |
 | R1 | 13.9% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 4.7% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
-| R3 | 10.1% | Rate decline / policy repair | 利率下行 / 政策修复 |
+| R2 | 4.6% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R3 | 10.2% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
 
@@ -74,8 +74,8 @@
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **6.6%**
-- Robust distance: 0.83
+- Risk score: **5.8%**
+- Robust distance: 0.74
 - Stress votes: 0/8
 - Warnings: none
 
