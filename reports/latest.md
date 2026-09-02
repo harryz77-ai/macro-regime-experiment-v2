@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-09-01T01:54:31.873306+00:00
-- Latest market date: 2026-08-31
+- Fetch time UTC: 2026-09-02T01:09:18.250943+00:00
+- Latest market date: 2026-09-01
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R0 — High-rate absorption / 高利率吸收**
-- Ensemble probability: **69.1%**
+- Ensemble probability: **65.8%**
 - Previous regime: R0
 - Model type: deterministic feature scoring + Markov prior + robust Student-t filter + change-point risk score
 
@@ -19,38 +19,38 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.730% | -1.0 bp | -2.0 bp | 24.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.220% | -5.0 bp | -5.0 bp | 23.0 bp | Term premium / fiscal supply pressure |
-| DXY | 99.45 | 0.46% | -0.51% | 0.04% | Dollar pressure |
-| SPY | 767.05 | 0.47% | 1.24% | 1.58% | Broad risk asset |
-| QQQ | 716.76 | 1.48% | 2.38% | -3.11% | High-duration growth |
-| IWM | 293.93 | -1.36% | -0.77% | 0.90% | Small-cap financing sensitivity |
-| TLT | 82.52 | -0.05% | 0.40% | -2.74% | Long-duration bond stress |
-| EEM | 67.02 | 1.38% | 4.20% | -2.51% | EM dollar/rate transmission |
-| HYG | 79.81 | 0.14% | 0.63% | 0.93% | Credit market proxy |
-| LQD | 106.21 | 0.03% | 0.09% | -1.66% | Investment-grade bond ETF |
-| HY OAS | 2.60% | -10.0 bp | -25.0 bp | -16.0 bp | Credit spread stress |
-| IG OAS | 0.79% | -2.0 bp | 0.0 bp | 5.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -2.01 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 2.96 pp | n/a | EM relative stress |
+| US 10Y yield | 4.750% | 5.0 bp | 5.0 bp | 28.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.250% | 2.0 bp | 2.0 bp | 28.0 bp | Term premium / fiscal supply pressure |
+| DXY | 99.73 | 0.74% | -0.23% | 0.32% | Dollar pressure |
+| SPY | 761.78 | -0.54% | -1.24% | 3.55% | Broad risk asset |
+| QQQ | 707.64 | -0.43% | -2.24% | 0.48% | High-duration growth |
+| IWM | 290.57 | -2.48% | -1.91% | -0.26% | Small-cap financing sensitivity |
+| TLT | 81.87 | -0.84% | -0.39% | -3.50% | Long-duration bond stress |
+| EEM | 66.77 | 1.00% | 3.81% | -2.87% | EM dollar/rate transmission |
+| HYG | 79.10 | -0.75% | -0.26% | 0.03% | Credit market proxy |
+| LQD | 105.22 | -0.90% | -0.84% | -2.58% | Investment-grade bond ETF |
+| HY OAS | 2.63% | -6.0 bp | -15.0 bp | -12.0 bp | Credit spread stress |
+| IG OAS | 0.80% | -1.0 bp | 2.0 bp | 5.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -0.67 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 5.05 pp | n/a | EM relative stress |
 
 ## 4. Ensemble Regime Probability
 
 | Regime | Ensemble Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 69.1% | High-rate absorption | 高利率吸收 |
-| R1 | 19.3% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 4.5% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
-| R3 | 7.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
+| R0 | 65.8% | High-rate absorption | 高利率吸收 |
+| R1 | 18.4% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 6.7% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R3 | 9.1% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
 
 | Regime | Rule Posterior | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 59.1% | High-rate absorption | 高利率吸收 |
-| R1 | 26.7% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 5.7% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
-| R3 | 8.5% | Rate decline / policy repair | 利率下行 / 政策修复 |
+| R0 | 54.3% | High-rate absorption | 高利率吸收 |
+| R1 | 24.5% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 9.2% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R3 | 12.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 6. Robust Statistical Layer
 
@@ -65,24 +65,24 @@
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 99.9% | High-rate absorption | 高利率吸收 |
-| R1 | 0.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 0.0% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 98.4% | High-rate absorption | 高利率吸收 |
+| R1 | 1.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 0.7% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ### Robust Change-Point / Transition Risk
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **6.5%**
-- Robust distance: 0.82
+- Risk score: **5.0%**
+- Robust distance: 0.64
 - Stress votes: 0/8
 - Warnings: none
 
 ## 7. Signal Evidence
 
-- **R0**: 10Y yield is high but not accelerating; equity resilience with stable credit; DXY is stable
-- **R1**: IWM underperformed SPY over 20D; credit spread pressure is not yet disorderly
+- **R0**: 10Y yield is high but not accelerating; DXY is stable
+- **R1**: credit spread pressure is not yet disorderly
 - **R2**: no strong evidence
 - **R3**: no strong evidence
 
