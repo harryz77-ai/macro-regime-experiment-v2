@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-09-02T01:09:18.250943+00:00
-- Latest market date: 2026-09-01
+- Fetch time UTC: 2026-09-03T01:15:20.649731+00:00
+- Latest market date: 2026-09-02
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -19,18 +19,18 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.750% | 5.0 bp | 5.0 bp | 28.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.250% | 2.0 bp | 2.0 bp | 28.0 bp | Term premium / fiscal supply pressure |
-| DXY | 99.73 | 0.74% | -0.23% | 0.32% | Dollar pressure |
+| US 10Y yield | 4.790% | 15.0 bp | 16.0 bp | 24.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.270% | 10.0 bp | 9.0 bp | 26.0 bp | Term premium / fiscal supply pressure |
+| DXY | 99.55 | 0.63% | -0.34% | -0.52% | Dollar pressure |
 | SPY | 761.78 | -0.54% | -1.24% | 3.55% | Broad risk asset |
 | QQQ | 707.64 | -0.43% | -2.24% | 0.48% | High-duration growth |
 | IWM | 290.57 | -2.48% | -1.91% | -0.26% | Small-cap financing sensitivity |
-| TLT | 81.87 | -0.84% | -0.39% | -3.50% | Long-duration bond stress |
+| TLT | 81.87 | -0.46% | -0.01% | -3.14% | Long-duration bond stress |
 | EEM | 66.77 | 1.00% | 3.81% | -2.87% | EM dollar/rate transmission |
-| HYG | 79.10 | -0.75% | -0.26% | 0.03% | Credit market proxy |
-| LQD | 105.22 | -0.90% | -0.84% | -2.58% | Investment-grade bond ETF |
-| HY OAS | 2.63% | -6.0 bp | -15.0 bp | -12.0 bp | Credit spread stress |
-| IG OAS | 0.80% | -1.0 bp | 2.0 bp | 5.0 bp | Investment-grade credit stress |
+| HYG | 79.10 | -0.21% | 0.28% | 0.58% | Credit market proxy |
+| LQD | 105.22 | -0.49% | -0.42% | -2.17% | Investment-grade bond ETF |
+| HY OAS | 2.65% | -5.0 bp | -8.0 bp | -13.0 bp | Credit spread stress |
+| IG OAS | 0.81% | 0.0 bp | 3.0 bp | 6.0 bp | Investment-grade credit stress |
 | IWM - SPY relative | n/a | n/a | -0.67 pp | n/a | Small-cap relative stress |
 | EEM - SPY relative | n/a | n/a | 5.05 pp | n/a | EM relative stress |
 
@@ -65,7 +65,7 @@
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 98.4% | High-rate absorption | 高利率吸收 |
+| R0 | 98.3% | High-rate absorption | 高利率吸收 |
 | R1 | 1.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
 | R2 | 0.7% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
@@ -74,8 +74,8 @@
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **5.0%**
-- Robust distance: 0.64
+- Risk score: **4.9%**
+- Robust distance: 0.62
 - Stress votes: 0/8
 - Warnings: none
 
