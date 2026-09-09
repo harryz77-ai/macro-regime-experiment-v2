@@ -1,30 +1,30 @@
 {
-  "fetch_time_utc": "2026-09-08T01:15:46.702478+00:00",
+  "fetch_time_utc": "2026-09-09T01:19:32.338040+00:00",
   "previous_regime": "R0",
   "features": {
-    "us2y_level": 4.34,
-    "us10y_level": 4.77,
-    "us30y_level": 5.25,
-    "us10y_5d_change_bp": 9.999999999999964,
-    "us10y_20d_change_bp": 7.999999999999918,
-    "us10y_60d_change_bp": 23.999999999999932,
-    "us30y_5d_change_bp": 5.999999999999961,
-    "us30y_20d_change_bp": 3.000000000000025,
-    "us30y_60d_change_bp": 24.00000000000002,
-    "curve_10y2y": 0.4299999999999997,
-    "curve_30y10y": 0.4800000000000004,
-    "hy_oas_level": 2.65,
-    "hy_oas_5d_change_bp": 2.0000000000000018,
-    "hy_oas_20d_change_bp": -6.000000000000005,
-    "hy_oas_60d_change_bp": -12.99999999999999,
+    "us2y_level": 4.37,
+    "us10y_level": 4.78,
+    "us30y_level": 5.24,
+    "us10y_5d_change_bp": 4.999999999999982,
+    "us10y_20d_change_bp": 12.99999999999999,
+    "us10y_60d_change_bp": 23.000000000000043,
+    "us30y_5d_change_bp": 2.000000000000046,
+    "us30y_20d_change_bp": 4.999999999999982,
+    "us30y_60d_change_bp": 20.999999999999996,
+    "curve_10y2y": 0.41000000000000014,
+    "curve_30y10y": 0.45999999999999996,
+    "hy_oas_level": 2.68,
+    "hy_oas_5d_change_bp": 5.000000000000027,
+    "hy_oas_20d_change_bp": -2.0000000000000018,
+    "hy_oas_60d_change_bp": 2.0000000000000018,
     "ig_oas_level": 0.81,
-    "ig_oas_5d_change_bp": 2.0000000000000018,
+    "ig_oas_5d_change_bp": 1.0000000000000009,
     "ig_oas_20d_change_bp": 3.0000000000000027,
-    "ig_oas_60d_change_bp": 6.000000000000005,
-    "dxy_latest": 99.1760025024414,
-    "dxy_5d_return": -0.255453889122792,
-    "dxy_20d_return": -0.6352019553754196,
-    "dxy_60d_return": -0.6849570435905394,
+    "ig_oas_60d_change_bp": 8.000000000000007,
+    "dxy_latest": 98.78900146484375,
+    "dxy_5d_return": -0.6446734771845986,
+    "dxy_20d_return": -1.022939704162018,
+    "dxy_60d_return": -1.0725006398575876,
     "spy_latest": 770.1900024414062,
     "spy_5d_return": 0.10918657075786875,
     "spy_20d_return": -0.39702134928059074,
@@ -67,42 +67,42 @@
       "us2y": {
         "group": "fred",
         "source": "FRED:DGS2",
-        "latest_date": "2026-09-03",
+        "latest_date": "2026-09-04",
         "freshness": "Acceptable",
         "error": null
       },
       "us10y": {
         "group": "fred",
         "source": "FRED:DGS10",
-        "latest_date": "2026-09-03",
+        "latest_date": "2026-09-04",
         "freshness": "Acceptable",
         "error": null
       },
       "us30y": {
         "group": "fred",
         "source": "FRED:DGS30",
-        "latest_date": "2026-09-03",
+        "latest_date": "2026-09-04",
         "freshness": "Acceptable",
         "error": null
       },
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-09-03",
+        "latest_date": "2026-09-07",
         "freshness": "Acceptable",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-09-03",
+        "latest_date": "2026-09-07",
         "freshness": "Acceptable",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-09-07",
+        "latest_date": "2026-09-08",
         "freshness": "Fresh",
         "error": null
       },
@@ -165,20 +165,19 @@
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-09-07",
+    "latest_market_date": "2026-09-08",
     "overall_freshness": "Fresh"
   },
   "rule_classification": {
     "scores": {
-      "R0": 2,
+      "R0": 1,
       "R1": 1,
       "R2": 0,
       "R3": 0
     },
     "evidence": {
       "R0": [
-        "10Y yield is high but not accelerating",
-        "DXY is stable"
+        "10Y yield is high but not accelerating"
       ],
       "R1": [
         "credit spread pressure is not yet disorderly"
@@ -187,10 +186,10 @@
       "R3": []
     },
     "signal_probability": {
-      "R0": 0.5396298786278032,
-      "R1": 0.2424713343705328,
-      "R2": 0.10894939350083196,
-      "R3": 0.10894939350083196
+      "R0": 0.34498724056380625,
+      "R1": 0.34498724056380625,
+      "R2": 0.15501275943619378,
+      "R3": 0.15501275943619378
     },
     "markov_prior": {
       "R0": 0.55,
@@ -199,19 +198,19 @@
       "R3": 0.14
     },
     "posterior_probability": {
-      "R0": 0.5432594211080721,
-      "R1": 0.24510636734084632,
-      "R2": 0.09181710577554078,
-      "R3": 0.11981710577554078
+      "R0": 0.41674170636647406,
+      "R1": 0.311741706366474,
+      "R2": 0.12175829363352594,
+      "R3": 0.14975829363352594
     },
     "top_regime": "R0"
   },
   "student_t_filter": {
     "probability": {
-      "R0": 0.9948670012252211,
-      "R1": 0.002569058316804799,
-      "R2": 0.0025630864789231433,
-      "R3": 8.539790509891349e-07
+      "R0": 0.9894125142970803,
+      "R1": 0.0054117425743620004,
+      "R2": 0.005172841462658004,
+      "R3": 2.9016658996468483e-06
     },
     "diagnostics": {
       "method": "Student-t observation filter + Markov transition smoothing",
@@ -221,7 +220,7 @@
       "warnings": [
         "State R2 has only 5 pseudo-labeled rows; using global robust scale."
       ],
-      "usable_rows": 1271,
+      "usable_rows": 1270,
       "available_features": [
         "us10y_20d_change_bp",
         "us30y_20d_change_bp",
@@ -239,15 +238,15 @@
       ],
       "pseudo_label_counts": {
         "R0": 369,
-        "R1": 740,
+        "R1": 739,
         "R2": 5,
         "R3": 157
       },
       "latest_log_likelihood": {
-        "R0": -28.775051244074447,
-        "R1": -33.950712919791386,
-        "R2": -32.54398242078993,
-        "R3": -41.382388057576534
+        "R0": -29.49010020096774,
+        "R1": -33.92118317948331,
+        "R2": -32.57424991649391,
+        "R3": -40.87595007692963
       },
       "top_regime": "R0"
     }
@@ -255,9 +254,9 @@
   "change_point": {
     "method": "robust trailing-window abnormality score",
     "used": true,
-    "risk_score": 0.04553004546973214,
+    "risk_score": 0.051583586357411323,
     "risk_level": "low",
-    "distance": 0.569113313438576,
+    "distance": 0.6567958371488359,
     "warnings": [],
     "stress_vote_count": 0,
     "stress_vote_total": 8,
@@ -279,10 +278,10 @@
   },
   "ensemble": {
     "probability": {
-      "R0": 0.6615962122139544,
-      "R1": 0.1814247674903216,
-      "R2": 0.0655438010913815,
-      "R3": 0.09143521920434244
+      "R0": 0.5839402735545751,
+      "R1": 0.22220429431497632,
+      "R2": 0.0845154213141372,
+      "R3": 0.10934001081631134
     },
     "top_regime": "R0",
     "weights": {
@@ -291,10 +290,10 @@
       "change": 0.1
     },
     "change_risk_prior": {
-      "R0": 0.3718045918154482,
-      "R1": 0.3359022959077241,
-      "R2": 0.09684611682380088,
-      "R3": 0.1954469954530268
+      "R0": 0.37071495445566593,
+      "R1": 0.335357477227833,
+      "R2": 0.09908592695224219,
+      "R3": 0.19484164136425888
     }
   },
   "alerts": {
