@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-09-15T01:37:10.106558+00:00
-- Latest market date: 2026-09-14
+- Fetch time UTC: 2026-09-16T01:29:39.006995+00:00
+- Latest market date: 2026-09-15
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -11,7 +11,7 @@
 ## 2. Current Regime Conclusion
 
 - Most likely regime: **R1 — Bear steepening + dollar pressure / 熊市陡峭化 + 美元压力**
-- Ensemble probability: **64.2%**
+- Ensemble probability: **64.0%**
 - Previous regime: R1
 - Model type: deterministic feature scoring + Markov prior + robust Student-t filter + change-point risk score
 
@@ -19,28 +19,28 @@
 
 | Indicator | Latest | 5D | 20D | 60D | Regime Signal |
 |---|---:|---:|---:|---:|---|
-| US 10Y yield | 4.960% | 19.0 bp | 33.0 bp | 53.0 bp | Long-end rate pressure |
-| US 30Y yield | 5.350% | 10.0 bp | 14.0 bp | 42.0 bp | Term premium / fiscal supply pressure |
-| DXY | 99.58 | 0.43% | -0.09% | -0.51% | Dollar pressure |
-| SPY | 764.29 | -1.15% | -1.75% | 2.12% | Broad risk asset |
-| QQQ | 714.88 | -0.39% | -2.35% | -1.94% | High-duration growth |
-| IWM | 288.89 | -2.13% | -4.81% | -1.09% | Small-cap financing sensitivity |
-| TLT | 80.87 | -1.46% | -1.71% | -5.08% | Long-duration bond stress |
-| EEM | 67.84 | 0.55% | 1.74% | -1.17% | EM dollar/rate transmission |
-| HYG | 78.60 | -0.77% | -0.95% | -0.31% | Credit market proxy |
-| LQD | 104.32 | -1.12% | -1.68% | -3.24% | Investment-grade bond ETF |
-| HY OAS | 2.65% | -3.0 bp | -2.0 bp | -1.0 bp | Credit spread stress |
-| IG OAS | 0.80% | -1.0 bp | 0.0 bp | 6.0 bp | Investment-grade credit stress |
-| IWM - SPY relative | n/a | n/a | -3.07 pp | n/a | Small-cap relative stress |
-| EEM - SPY relative | n/a | n/a | 3.49 pp | n/a | EM relative stress |
+| US 10Y yield | 4.970% | 19.0 bp | 29.0 bp | 48.0 bp | Long-end rate pressure |
+| US 30Y yield | 5.340% | 10.0 bp | 9.0 bp | 41.0 bp | Term premium / fiscal supply pressure |
+| DXY | 99.71 | 0.88% | 0.07% | -1.13% | Dollar pressure |
+| SPY | 760.88 | -1.21% | -1.99% | 2.95% | Broad risk asset |
+| QQQ | 709.18 | -1.36% | -2.99% | -1.74% | High-duration growth |
+| IWM | 287.91 | -2.74% | -5.63% | -0.68% | Small-cap financing sensitivity |
+| TLT | 80.93 | -1.56% | -0.97% | -5.17% | Long-duration bond stress |
+| EEM | 65.99 | -3.94% | -0.93% | -3.75% | EM dollar/rate transmission |
+| HYG | 78.53 | -0.80% | -0.94% | -0.02% | Credit market proxy |
+| LQD | 104.30 | -1.12% | -1.30% | -2.95% | Investment-grade bond ETF |
+| HY OAS | 2.71% | 3.0 bp | 1.0 bp | 6.0 bp | Credit spread stress |
+| IG OAS | 0.80% | -1.0 bp | -1.0 bp | 6.0 bp | Investment-grade credit stress |
+| IWM - SPY relative | n/a | n/a | -3.64 pp | n/a | Small-cap relative stress |
+| EEM - SPY relative | n/a | n/a | 1.06 pp | n/a | EM relative stress |
 
 ## 4. Ensemble Regime Probability
 
 | Regime | Ensemble Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 16.3% | High-rate absorption | 高利率吸收 |
-| R1 | 64.2% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 12.2% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 16.5% | High-rate absorption | 高利率吸收 |
+| R1 | 64.0% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 12.1% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 7.3% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ## 5. Rule Engine Probability
@@ -65,17 +65,17 @@
 
 | Regime | Student-t Filter Probability | Interpretation | 中文解释 |
 |---|---:|---|---|
-| R0 | 6.1% | High-rate absorption | 高利率吸收 |
-| R1 | 78.9% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
-| R2 | 15.0% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
+| R0 | 7.0% | High-rate absorption | 高利率吸收 |
+| R1 | 78.6% | Bear steepening + dollar pressure | 熊市陡峭化 + 美元压力 |
+| R2 | 14.5% | Credit / sovereign stress spillover | 信用 / 主权压力外溢 |
 | R3 | 0.0% | Rate decline / policy repair | 利率下行 / 政策修复 |
 
 ### Robust Change-Point / Transition Risk
 
 - Used: **True**
 - Risk level: **low**
-- Risk score: **16.3%**
-- Robust distance: 1.28
+- Risk score: **16.6%**
+- Robust distance: 1.30
 - Stress votes: 1/8
 - Warnings: none
 
