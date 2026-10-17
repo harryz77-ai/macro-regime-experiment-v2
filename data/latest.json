@@ -1,30 +1,30 @@
 {
-  "fetch_time_utc": "2026-10-16T01:32:02.646907+00:00",
+  "fetch_time_utc": "2026-10-17T01:22:58.306933+00:00",
   "previous_regime": "R1",
   "features": {
-    "us2y_level": 4.82,
-    "us10y_level": 5.19,
-    "us30y_level": 5.52,
-    "us10y_5d_change_bp": -7.999999999999918,
-    "us10y_20d_change_bp": 19.00000000000004,
-    "us10y_60d_change_bp": 59.00000000000007,
-    "us30y_5d_change_bp": -12.00000000000001,
-    "us30y_20d_change_bp": 15.999999999999925,
-    "us30y_60d_change_bp": 40.99999999999993,
-    "curve_10y2y": 0.3700000000000001,
-    "curve_30y10y": 0.3299999999999992,
-    "hy_oas_level": 3.25,
-    "hy_oas_5d_change_bp": 16.000000000000014,
-    "hy_oas_20d_change_bp": 54.999999999999986,
-    "hy_oas_60d_change_bp": 56.999999999999986,
+    "us2y_level": 4.77,
+    "us10y_level": 5.1,
+    "us30y_level": 5.43,
+    "us10y_5d_change_bp": -18.00000000000006,
+    "us10y_20d_change_bp": 8.999999999999986,
+    "us10y_60d_change_bp": 46.99999999999997,
+    "us30y_5d_change_bp": -24.00000000000002,
+    "us30y_20d_change_bp": 8.000000000000007,
+    "us30y_60d_change_bp": 29.999999999999982,
+    "curve_10y2y": 0.33000000000000007,
+    "curve_30y10y": 0.33000000000000007,
+    "hy_oas_level": 3.23,
+    "hy_oas_5d_change_bp": 8.000000000000007,
+    "hy_oas_20d_change_bp": 52.99999999999998,
+    "hy_oas_60d_change_bp": 46.0,
     "ig_oas_level": 0.84,
     "ig_oas_5d_change_bp": 2.0000000000000018,
     "ig_oas_20d_change_bp": 5.999999999999995,
-    "ig_oas_60d_change_bp": 5.999999999999995,
-    "dxy_latest": 102.052001953125,
-    "dxy_5d_return": -0.08615374686633537,
-    "dxy_20d_return": 1.8279791559645542,
-    "dxy_60d_return": 0.9017229276055305,
+    "ig_oas_60d_change_bp": 4.999999999999993,
+    "dxy_latest": 101.77899932861328,
+    "dxy_5d_return": -0.4216806180608268,
+    "dxy_20d_return": 1.5555758221125426,
+    "dxy_60d_return": 0.3440786970200671,
     "spy_latest": 771.7899780273438,
     "spy_5d_return": -0.2765126909009763,
     "spy_20d_return": 1.456397963684175,
@@ -67,42 +67,42 @@
       "us2y": {
         "group": "fred",
         "source": "FRED:DGS2",
-        "latest_date": "2026-10-14",
-        "freshness": "Acceptable",
+        "latest_date": "2026-10-15",
+        "freshness": "Fresh",
         "error": null
       },
       "us10y": {
         "group": "fred",
         "source": "FRED:DGS10",
-        "latest_date": "2026-10-14",
-        "freshness": "Acceptable",
+        "latest_date": "2026-10-15",
+        "freshness": "Fresh",
         "error": null
       },
       "us30y": {
         "group": "fred",
         "source": "FRED:DGS30",
-        "latest_date": "2026-10-14",
-        "freshness": "Acceptable",
+        "latest_date": "2026-10-15",
+        "freshness": "Fresh",
         "error": null
       },
       "hy_oas": {
         "group": "fred",
         "source": "FRED:BAMLH0A0HYM2",
-        "latest_date": "2026-10-14",
-        "freshness": "Acceptable",
+        "latest_date": "2026-10-15",
+        "freshness": "Fresh",
         "error": null
       },
       "ig_oas": {
         "group": "fred",
         "source": "FRED:BAMLC0A0CM",
-        "latest_date": "2026-10-14",
-        "freshness": "Acceptable",
+        "latest_date": "2026-10-15",
+        "freshness": "Fresh",
         "error": null
       },
       "dxy": {
         "group": "yahoo",
         "source": "Yahoo:DX-Y.NYB",
-        "latest_date": "2026-10-15",
+        "latest_date": "2026-10-16",
         "freshness": "Fresh",
         "error": null
       },
@@ -165,7 +165,7 @@
     },
     "missing": [],
     "stale": [],
-    "latest_market_date": "2026-10-15",
+    "latest_market_date": "2026-10-16",
     "overall_freshness": "Fresh"
   },
   "rule_classification": {
@@ -209,10 +209,10 @@
   },
   "student_t_filter": {
     "probability": {
-      "R0": 1.795230059264742e-05,
-      "R1": 0.9019244346316974,
-      "R2": 0.09805738524624419,
-      "R3": 2.278214658083289e-07
+      "R0": 0.00011184764641547052,
+      "R1": 0.8484289094065101,
+      "R2": 0.1514584321379034,
+      "R3": 8.108091711922907e-07
     },
     "diagnostics": {
       "method": "Student-t observation filter + Markov transition smoothing",
@@ -222,7 +222,7 @@
       "warnings": [
         "State R2 has only 5 pseudo-labeled rows; using global robust scale."
       ],
-      "usable_rows": 1269,
+      "usable_rows": 1270,
       "available_features": [
         "us10y_20d_change_bp",
         "us30y_20d_change_bp",
@@ -240,15 +240,15 @@
       ],
       "pseudo_label_counts": {
         "R0": 357,
-        "R1": 750,
+        "R1": 751,
         "R2": 5,
         "R3": 157
       },
       "latest_log_likelihood": {
-        "R0": -46.48099794665222,
-        "R1": -36.20084581451143,
-        "R2": -37.72513147936094,
-        "R3": -50.476170795987734
+        "R0": -44.487489922169104,
+        "R1": -36.098463963454485,
+        "R2": -37.177538793719734,
+        "R3": -49.10142324660229
       },
       "top_regime": "R1"
     }
@@ -256,9 +256,9 @@
   "change_point": {
     "method": "robust trailing-window abnormality score",
     "used": true,
-    "risk_score": 0.401811311902763,
-    "risk_level": "medium",
-    "distance": 2.0301737114274223,
+    "risk_score": 0.3916060884050798,
+    "risk_level": "low",
+    "distance": 1.987931043466175,
     "warnings": [],
     "stress_vote_count": 3,
     "stress_vote_total": 8,
@@ -280,10 +280,10 @@
   },
   "ensemble": {
     "probability": {
-      "R0": 0.1401930426143111,
-      "R1": 0.6731889246340133,
-      "R2": 0.1156601558192695,
-      "R3": 0.07095787693240613
+      "R0": 0.14040490524101626,
+      "R1": 0.6572321140779362,
+      "R2": 0.13130287661735301,
+      "R3": 0.07106010406369459
     },
     "top_regime": "R1",
     "weights": {
@@ -292,16 +292,16 @@
       "change": 0.1
     },
     "change_risk_prior": {
-      "R0": 0.3076739638575027,
-      "R1": 0.30383698192875136,
-      "R2": 0.2286701854040223,
-      "R3": 0.1598188688097237
+      "R0": 0.30951090408708565,
+      "R1": 0.3047554520435428,
+      "R2": 0.22489425270987953,
+      "R3": 0.16083939115949203
     }
   },
   "alerts": {
-    "R1 continuation": "not confirmed",
+    "R1 continuation": "ON",
     "R2 upgrade warning": "ON",
-    "R2 transition risk": "medium",
+    "R2 transition risk": "low",
     "R3 policy-repair signal": "not confirmed"
   }
 }
