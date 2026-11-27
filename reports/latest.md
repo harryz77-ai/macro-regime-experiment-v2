@@ -2,8 +2,8 @@
 
 ## 1. Timestamp
 
-- Fetch time UTC: 2026-11-26T05:14:53.578464+00:00
-- Latest market date: 2026-11-26
+- Fetch time UTC: 2026-11-27T05:12:30.539216+00:00
+- Latest market date: 2026-11-27
 - Overall data freshness: Fresh
 - Missing fields: none
 - Stale fields: none
@@ -21,7 +21,7 @@
 |---|---:|---:|---:|---:|---|
 | US 10Y yield | 4.910% | -19.0 bp | -9.0 bp | 24.0 bp | Long-end rate pressure |
 | US 30Y yield | 5.300% | -16.0 bp | -1.0 bp | 11.0 bp | Term premium / fiscal supply pressure |
-| DXY | 103.82 | -0.08% | 1.74% | 4.28% | Dollar pressure |
+| DXY | 103.75 | -0.15% | 1.67% | 4.21% | Dollar pressure |
 | SPY | 716.70 | -1.85% | -7.20% | -5.68% | Broad risk asset |
 | QQQ | 633.93 | -3.88% | -12.63% | -10.32% | High-duration growth |
 | IWM | 268.87 | -0.46% | -4.42% | -7.23% | Small-cap financing sensitivity |
